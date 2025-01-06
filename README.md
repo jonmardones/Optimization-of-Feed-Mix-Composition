@@ -1,25 +1,43 @@
 # Optimization-of-Feed-Mix-Composition
-This repository hosts the Python code and Jupyter notebooks for the Feed Mix Optimization project. The project employs linear programming to develop an optimized agricultural feed mix. We aimed to minimize both the number of ingredients and the costs while ensuring that the nutritional standards are met. The project outcomes include a streamlined ingredient list, cost reductions, and a strategic decision-support tool for optimizing feed compositions.
+The **Feed Mix Optimization Project** uses linear programming to design cost-effective and nutritionally balanced agricultural feed mixes. The project focuses on achieving three main goals: reducing costs, minimizing the number of ingredients, and maintaining nutritional standards. The resulting solution provides a strategic tool for optimizing feed formulations while simplifying supply chain logistics.
 
+---
 
-The project was structured around several key objectives:
+## Key Features
 
- - Model Development: Construct a linear programming model that incorporates combined ingredient rules. These rules define the maximum allowable proportions for specific combinations of ingredients to ensure a balanced feed composition.
- - Ingredient Optimization: Use binary variables to decide the inclusion of each ingredient, thereby minimizing the number of different ingredients used. This simplifies procurement and supply chain logistics.
- - Cost Reduction: Adapt the model to minimize the cost of the feed mix by selecting the most cost-effective combination of the necessary ingredients.
- - Trade-Off Analysis: Analyze and visualize the trade-offs between reducing the number of ingredients and minimizing costs, facilitating informed decision-making.
+- **Streamlined Ingredient Selection**  
+   The project introduces binary variables to determine ingredient inclusion, focusing on minimizing the number of ingredients in the feed mix. This approach simplifies procurement and supply chain logistics by reducing ingredient diversity while maintaining nutritional integrity.
 
+- **Cost Optimization**  
+   Using linear programming, the project identifies the most cost-effective combination of ingredients. The optimization ensures that all nutritional requirements are met while keeping costs as low as possible, enabling efficient resource allocation.
 
-#### Data Preparation:
- The notebook starts by loading and preparing data, setting up necessary parameters for the optimization model.
-#### Model Setup:
- Defines the linear programming model, including variables, objective functions, and constraints based on the nutritional and cost requirements.
-#### Optimization Execution: 
- Runs the optimization to determine the optimal combination of ingredients.
- 
- ## Outputs
+- **Balanced Nutritional Standards**  
+   The model incorporates combined ingredient rules that define allowable proportions for specific nutrients, ensuring the feed mix adheres to balanced nutritional standards. This guarantees compliance with dietary guidelines for agricultural feed.
 
-The notebook outputs:
+- **Trade-Off Analysis**  
+   The project provides a visual and analytical exploration of trade-offs between minimizing ingredient variety and reducing costs. This analysis supports informed decision-making by highlighting how changes in one factor impact the other.
 
- - **Optimized Feed Mix**: Details the minimal number of ingredients used and the corresponding cost-efficient feed mix.
- - **Visualizations**: Displays graphs depicting the relationship between the number of ingredients and the cost, aiding in strategic decisions.
+---
+
+## Methodology
+
+1. **Data Preparation**  
+   The project begins with loading and preprocessing data, including defining the parameters and constraints needed for optimization.
+
+2. **Linear Programming Model Setup**  
+   A linear programming model is constructed with variables representing ingredient inclusion, objective functions for minimizing cost and ingredient count, and constraints to ensure nutritional and budgetary requirements are met.
+
+3. **Optimization Execution**  
+   The optimization process identifies the ideal combination of ingredients that balances cost efficiency with nutritional standards.
+
+---
+
+## Results and Analysis
+
+- **Optimized Feed Mix**  
+  The final feed mix includes the minimal number of ingredients necessary to meet nutritional standards, along with a detailed breakdown of associated costs.
+
+- **Visualizations**  
+  Graphs and charts are provided to illustrate trade-offs between cost and ingredient diversity, offering actionable insights for decision-makers.
+
+---
